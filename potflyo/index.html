@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mustafa Nahsan - Frontend Developer | Personal Portfolio</title>
+        <meta name="description" content="Mustafa Nahsan, frontend developer. Modern ve kullanıcı dostu web ve mobil uygulamalar geliştirmekte uzmanlaşmış bir yazılımcıdır.">
+        <meta name="keywords" content="Mustafa Nahsan, Frontend Developer, Yazılım, Kişisel Portföy, Web Geliştirme, UI/UX Tasarım">
+        <link rel="website icon" type="svg" href="assets/svg/logotow.svg">
+        <link rel="stylesheet" href="style.css">
+        <script src="js/jquery.min.js"></script>
+    </head>
+    
+<body>
+    <header>
+        <img class="logocss" src="assets/svg/logowhite.png" alt="logo" title="logo">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><button class="contact-btn" id="Contact">Contact</button></li>
+            </ul>
+        </nav>
+        <button class="hamburger" id="hamburger-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <div id="Home" class="home">
+            <div class="ho-up">
+                <div class="ho-left">
+                    <img src="assets/svg/potfoypic.png" alt="image" title="picture">
+                </div>
+                <div class="ho-right">
+                    <h2>Hello! I Am <span class="coloring-mustafa"> Mustafa</span></h2>
+                    <span class="typeWriterSpan">
+                        <p class="nothing">
+                            <strong>I Am</strong>
+                        </p>
+                        <strong>
+                            <p class="typeWriter" id="typewriter"></p>
+                        </strong>
+                    </span>
+                </div>
+            </div>
+            <div class="paragraf hidden">
+                <p>I continue my projects as a frontend developer in the field of web and mobile application development. I aim to make a difference in the software world by designing modern and user-friendly interfaces. I constantly keep myself up-to-date by adapting to evolving technologies.</p>
+            </div>
+    </div>
+
+    <div id="Software-Tech" class="software-tech">
+            <img src="assets/svg/Skills.png" alt="Skills">
+    </div>
+
+    <div id="Projects" class="projects">
+        <div class="pro-up">
+            <div class="pro-up-left hidden">
+                <h3>Cafe Webside</h3>
+                <p> The café site, which I developed using HTML, CSS and JavaScript, is an impressive website that showcases my professional skills and projects. This site enriches the user experience with modern design elements and dynamic interactions. It is designed to best reflect my own style and abilities. <span><a href="https://cafe-83756.web.app/" target="_blank"><button class="click-btn">click</button></a></span></p>
+            </div>
+            <div class="pro-up-right">
+                <img class="big" src="assets/image/momntumwide.png" alt="picture" title="picture">
+                <img class="small" src="assets/image/momentumsmall.png" alt="picture" title="picture">
+            </div>
+        </div>
+
+        <div class="pro-bottom">
+            <div class="pro-bottom-left">
+                <img class="small" src="assets/image/gtavsmall.png" alt="picture" title="picture">
+                <img class="big" src="assets/image/gtavwide.png" alt="picture" title="picture"> 
+            </div>
+            <div class="pro-bottom-right hidden">
+                <h3>GTAV Webside</h3>
+                <p>The GTAV Story site, which I developed using HTML, CSS, and JavaScript, is an impressive website that showcases my professional skills and projects. This site enriches the user experience with modern design elements and dynamic interactions. It is designed to best reflect my own style and abilities.<span><a href="https://mustafa-8ca66.web.app/" target="_blank"><button class="click-btn">click</button></a></span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropdown-toggle">click for more projects</button>
+        <ul class="dropdown-menu">
+            <li><a href="https://github.com/mustafaf8/Responsive-personal-portfolio" target="_blank">Personal portfolio</a></li>
+            <li><a href="https://github.com/mustafaf8/fuzzy-logic" target="_blank">Fuzzy logic</a></li>
+            <li><a href="https://github.com/mustafaf8/Fitfusion" target="_blank">Fitfusion</a></li>
+            <li><a href="https://github.com/mustafaf8/Im-Ages" target="_blank">Im-Ages</a></li>
+        </ul>
+    </div>
+
+       <!-- Modal -->
+       <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Contact Us</h3>
+            <form id="contactForm">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="username" name="fullname" minlength="5" maxlength="25" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"  minlength="11" maxlength="40" placeholder="Example:mustafanahsan754@gmail.com" required>
+                
+                <label for="text">massage:</label>
+                <input type="text" id="textarea" maxlength="200" name="lastName"  required>
+                
+                <button class="submit" type="submit" id="submit" value="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/mustafa-nahsan-a811b2307/" target="_blank"><img src="assets/svg/linkedin.png" alt="logo" title="logo"></a>
+            <a href="https://www.linkedin.com/in/mustafa-nahsan-a811b2307/?trk=opento_sprofile_details" target="_blank" ><img src="assets/svg/instagram.png" alt="logo" title="logo"></a>
+            <a href="https://github.com/mustafaf8/" target="_blank"><img src="assets/svg/github.png" alt="logo" title="logo"></a>
+            <a href="https://www.youtube.com/channel/UCr3TY2Ruo3ITMvPICeBvE0w" target="_blank"><img src="assets/svg/youtube.png" alt="logo" title="logo"></a>
+            <a href="assets/pdf/mustafa_nahsan_english_cv.pdf" download target="_blank"><img src="assets/svg/ini.png" alt="logo" title="logo"></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><img src="assets/svg/Gmail_ico.png" alt="logo" title="logo"></a>
+        </div>
+        <p>©2024 <strong>Mustafa</strong>. All rights reserved.</p>
+    </footer>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-analytics.js";
+        import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-database.js";
+    
+        const firebaseConfig = {
+            apiKey: "AIzaSyAU1v-VhqOek5wR4oODjysqSgSTaIKCFo0",
+            authDomain: "portfoy-abfb2.firebaseapp.com",
+            projectId: "portfoy-abfb2",
+            storageBucket: "portfoy-abfb2.appspot.com",
+            messagingSenderId: "483440686674",
+            appId: "1:483440686674:web:ea06c75efa471fb4ac518b",
+            measurementId: "G-TWXPJ7JNGX"
+        };
+        
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+        const db = getDatabase(app);
+    
+        // Toast bildirimini gösterme fonksiyonu
+        function showToast(message) {
+            const toast = document.createElement('div');
+            toast.className = 'toast';
+            toast.innerText = message;
+            document.body.appendChild(toast);
+            setTimeout(() => {
+                toast.remove();
+            }, 3000); // 3 saniye sonra sil
+        }
+    
+        document.getElementById("submit").addEventListener('click', function(e) {
+            e.preventDefault();
+    
+            const username = document.getElementById("username").value;
+            const email = document.getElementById("email").value;
+    
+            // E-posta kontrolü
+            const isValidEmail = (email) => {
+                const atIndex = email.lastIndexOf("@");
+                return atIndex > 0 && email.substring(atIndex + 1).match(/^[a-zA-Z.]+$/);
+            };
+    
+            if (!isValidEmail(email)) {
+                showToast("Please enter a valid email address.");
+                return; 
+            }
+    
+            const date = new Date();
+            const formattedDate = `${date.toLocaleDateString()} ${date.toLocaleTimeString()}`;
+            
+            set(ref(db, 'users/' + username), {
+                username: username,
+                email: email,
+                textArea: document.getElementById("textarea").value,
+                date: formattedDate 
+            })
+            .then(() => {
+                showToast("Posted successfully!");
+            })
+            .catch((error) => {
+                showToast("Error: " + error);
+            });
+        });
+    </script>
+        <script src="js/script.js"></script>
+</body>
+</html>
