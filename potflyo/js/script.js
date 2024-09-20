@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    // Typewriter Efekti
+    
     const texts = ["Frontend Developer.", "Software Developer.", "UI/UX Designer."];
     const speed = 80;
     let index = 0, textIndex = 0, isDeleting = false;
