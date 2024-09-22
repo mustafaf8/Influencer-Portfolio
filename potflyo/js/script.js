@@ -49,7 +49,7 @@ $(document).ready(function() {
     });
 
     // Modal
-    const $modal = $('#myModal'), $btn = $('.contact-btn'), $span = $('.close'), $form = $('#contactForm');
+     const $modal = $('#myModal'), $btn = $('.contact-btn'), $span = $('.close'), $form = $('#contactForm');
 
     $btn.on('click', function() {
         $modal.fadeIn();
