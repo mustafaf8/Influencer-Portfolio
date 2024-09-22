@@ -389,7 +389,7 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-/* Form Stilleri */
+
 form {
     display: flex;
     flex-direction: column;
